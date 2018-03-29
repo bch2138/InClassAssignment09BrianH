@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "680279393281",
+    "firebase_url": "https://inclassassignment09-brianh.firebaseio.com",
+    "project_id": "inclassassignment09-brianh",
+    "storage_bucket": "inclassassignment09-brianh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680279393281:android:42927e3eabd360d8",
+        "android_client_info": {
+          "package_name": "com.example.uhylabr.inclassassignment09_brianh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680279393281-s7uvc730msa3k217510i3redil8rns9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrP1cLqlL10xPWWIA2ixHBdMW6CDP6xc4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
