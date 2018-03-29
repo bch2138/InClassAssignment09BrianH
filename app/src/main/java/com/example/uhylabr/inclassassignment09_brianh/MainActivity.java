@@ -8,15 +8,15 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseDatabase database  = FirebaseDatabase.getInstance();
-    private DatabaseReference personRef = database.getReference(s:"person");
-    private DatabaseReference peopleRef = database.getReference(s: "Multiple people");
+    private DatabaseReference personRef = database.getReference("person");
+    private DatabaseReference peopleRef = database.getReference("Multiple people");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void set (View view){personRef.setValue(new Person("Brad", 36, true));
+    public void set (View view){personRef.setValue(new Person("Brad", 36, true));}
 
     public void add(View view){
         peopleRef.push().setValue(new Person("Nigel", 30, true));
